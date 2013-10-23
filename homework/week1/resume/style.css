@@ -1,3 +1,20 @@
+h1 {
+    color: violet;
+}
+
+nav {
+	color: rgba(20, 20, 20, 0.3);
+}
+
+h2 {
+	color: white;
+}
+}
+
 body {
-	color: red;
+	background-image: url(background.jpg); 
+	background-position: 50%; /* this also centers on screen */
+	background-position: 100px 100px;
+	background-position: center;
+	color: white;
 }
