@@ -1,8 +1,8 @@
 /* 
-Project Name: Blank Template
+Project Name: Fashion Blog
 Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Author: Kalina King
+Developer @GA in HK
 */
 
 
@@ -19,7 +19,7 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
+     content: "."; /*adds html text of period symbol (:after) all other children*/
      display: block;
      clear: both;
      visibility: hidden;
@@ -45,12 +45,61 @@ Developer @GA in NYC
 /* BASE STYLES                   
 /*******************************************/
 
+
 body {
-     color: #000;
-     font-size: 12px;
+     color: #AAA;
+     font-size: 24px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Lato', sans-serif;
 }
+h1 {
+     color: red;
+     font-size: 80px;
+}
+     
+nav #top {
+     color: #888;
+     font-size: 30px;
+     text-decoration: underline;
+}
+
+nav #bottom {
+     color: red;
+     font-size: 30px;
+     padding-left: 200px;
+}
+
+
+
+div #post {
+     h2 .date {
+          color: #AAA;
+     }
+     }
+}
+
+h2 #post {
+          color: #000;
+     }
+
+div #content {
+     color: blue;
+     font-size: 24px;
+}
+
+p .First {
+     font-size: 60px;
+     color: #AAA;
+}
+
+a:link{
+     color: red;
+     font-weight: bold;
+     float: left; 
+     padding: 0 10px 10px 0;
+}
+          /* add a divider line in #AAA */
+
 
 
 /******************************************

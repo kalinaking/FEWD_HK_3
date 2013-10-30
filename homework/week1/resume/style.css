@@ -11,10 +11,9 @@ h2 {
 }
 }
 
-body {
-	background-image: url(background.jpg); 
-	background-position: 50%; /* this also centers on screen */
-	background-position: 100px 100px;
-	background-position: center;
-	color: white;
+div
+{
+	background-image:../background.jpg;
+	/* background-image:url('../background.jpg'); 
+	background-repeat:no-repeat; */
 }
