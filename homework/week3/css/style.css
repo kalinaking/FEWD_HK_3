@@ -1,7 +1,7 @@
 /* 
-Project Name: Fashion Blog
-Client: Your Client
-Author: Kalina King
+Project Name: Startup Matchmaker
+Client: FEWD
+Author: Kalina
 Developer @GA in HK
 */
 
@@ -19,7 +19,7 @@ Developer @GA in HK
 
 /* Clear fix hack */
 .clearfix:after {
-     content: "."; /*adds html text of period symbol (:after) all other children*/
+     content: ".";
      display: block;
      clear: both;
      visibility: hidden;
@@ -45,61 +45,12 @@ Developer @GA in HK
 /* BASE STYLES                   
 /*******************************************/
 
-
 body {
-     color: #AAA;
-     font-size: 24px;
+     color: #000;
+     font-size: 12px;
      line-height: 1.4;
-     font-family: 'Lato', sans-serif;
+     font-family: Helvetica, Arial, sans-serif;
 }
-h1 {
-     color: red;
-     font-size: 80px;
-}
-     
-nav#top {
-     color: #888;
-     font-size: 30px;
-     text-decoration: underline;
-}
-
-nav#bottom {
-     color: red;
-     font-size: 30px;
-     padding-left: 200px;
-}
-
-
-
-div.post {
-     h2 .date {
-          color: #AAA;
-     }
-     }
-}
-
-h2.post {
-          color: #000;
-     }
-
-div.content {
-     color: blue;
-     font-size: 24px;
-}
-
-p.First {
-     font-size: 60px;
-     color: #AAA;
-}
-
-a:link{
-     color: red;
-     font-weight: bold;
-     float: left; 
-     padding: 0 10px 10px 0;
-}
-          /* add a divider line in #AAA */
-
 
 
 /******************************************
@@ -115,8 +66,14 @@ a:link{
 header {
 
 }
+Main {
+     background-image: "http://www.flickr.com/photos/mikeschinkel/2733534094/";
+}
 
 footer {
+     height: 50px;
+     background-color: black;
+     color: white;
 
 }
 
